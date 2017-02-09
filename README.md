@@ -63,7 +63,7 @@ Developing APIs is hard. Postman makes it easy. Have a look at:
 
 Basic leaflet maps for in your browser can be found here:
 
-(https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html)[https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html]
+https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html
 
 There is also a Maptime Leaflet tutorial! Have a look at
 [https://github.com/maptime-ams/Leaflet-D3-workshop](https://github.com/maptime-ams/Leaflet-D3-workshop)
@@ -72,10 +72,9 @@ There is also a Maptime Leaflet tutorial! Have a look at
 
 
 
-Maptime is BYOB,  you can bring your own dinner, snacks, drinks and beers. Some drinks and snacks are provided by Datalab tonight!
-
-
 ## About Maptime AMS
+
+Maptime is BYOB,  you can bring your own dinner, snacks, drinks and beers. Some drinks and snacks are provided by Datalab tonight!
 
 Maptime Amsterdam is a monthly map hack night hosted by Waag Society. We meet once a month on a Wednesday at 18.30 to work on maps, learn about geospatial data, and teach each other the latest cartographic tools.
 
