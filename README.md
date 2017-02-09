@@ -32,6 +32,10 @@ http://www.nlextract.nl/file-cabinet
 Files to read into Qgis for fast WFS services:
 https://www.dropbox.com/sh/hu264m0mf77q3b7/AAAm4tIHlKGKl63tH9atmXRra?dl=1
 
+How to import them in QGIS:
+
+	Add WMS layer >> load in the xml file from link above.
+	Select a feature
 
 
 ## What to do with the API's
