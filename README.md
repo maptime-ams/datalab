@@ -4,6 +4,7 @@ Links for tonight:
 
 [data.amsterdam.nl](data.amsterdam.nl)
 
+[api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)
 
 QGIS [general](http://www.qgis.org/nl/docs/index.html) officail Dutch QGIS manual
 
