@@ -18,6 +18,16 @@ QGIS [general](http://www.qgis.org/nl/docs/index.html) officail Dutch QGIS manua
 Dutch tutorial for WMS/WFS in Qgis:
 [pdf](/qgis_-_webservices.pdf)
 
+
+BAGNL extract as csv and Postgis :
+http://www.nlextract.nl/file-cabinet
+
+Files to read into Qgis for fast WFS services:
+https://www.dropbox.com/sh/hu264m0mf77q3b7/AAAm4tIHlKGKl63tH9atmXRra?dl=1
+
+
+
+
 ### Web development
 
 Leaflet, Openlayers, Google working examples from datalab:
@@ -36,9 +46,27 @@ For example in javascript:
 	print(data)
 	data.geometrie.coordinates[0][0]
 
-## Postman
+For phyton:
+[https://learnpythonthehardway.org/](https://learnpythonthehardway.org/)
+
+
+### The Postman option
 Developing APIs is hard. Postman makes it easy. Have a look at:
 [https://www.getpostman.com/](https://www.getpostman.com/)
+
+
+### Basic Leaflet map
+
+Basic leaflet maps for in your browser can be found here:
+
+(https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html)[https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html]
+
+There is also a Maptime Leaflet tutorial! Have a look at
+[https://github.com/maptime-ams/Leaflet-D3-workshop](https://github.com/maptime-ams/Leaflet-D3-workshop)
+
+
+
+
 
 Maptime is BYOB,  you can bring your own dinner, snacks, drinks and beers. Some drinks and snacks are provided by Datalab tonight!
 
