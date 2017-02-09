@@ -1,6 +1,7 @@
 # Maptime # 11 Datalab!
 
 Links for tonight:
+
 [data.amsterdam.nl](data.amsterdam.nl)
 
 
@@ -10,6 +11,7 @@ Dutch tutorial fror WMS/WFS in Qgis:
 [pdf](/qgis_-_webservices.pdf)
 
 Leaflet, Openlayers, Google working examples from datalab:
+
 [https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
 
 
