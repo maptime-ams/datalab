@@ -6,7 +6,7 @@
 317 datasets. Static data to download.
 [data.amsterdam.nl](data.amsterdam.nl)
 
-20 API's . Dynamic data. Atlas build on top of it. 
+20 API's . Dynamic data. Atlas build on top of it.
 [api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)
 (Atlas not open yet..)
 
@@ -40,18 +40,35 @@ How to import them in QGIS:
 
 ## What to do with the API's
 
-For tonight, use the [api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)! Have a look at the acces points and documentation. 
+For tonight, use the [api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)! Have a look at the acces points and documentation.
 
-### The really nerdy option
+
+## The meaning of these API's
+
+The information model of the data is complex, in the documentation there are a lot of entities explained, the whole system is explained
+(in Dutch) on [https://www.amsterdam.nl/stelselpedia/](https://www.amsterdam.nl/stelselpedia/).
+
+
+### The really nerdy option of accessing API's
+
 Urls are data as JSON. Use phyton, javascript or any other programming language or interface to request the data.
-For example in javascript:
+For example in python:
 
-	var data = requests.get(https://api.datapunt.amsterdam.nl/bag/pand/03630013000707/)
+	import requests
+	data = requests.get("https://api.datapunt.amsterdam.nl/bag/pand/03630013000707/").json()
 	print(data)
-	data.geometrie.coordinates[0][0]
+	print(data['geometrie']['coordinates'][0][0])
 
 For phyton:
 [https://learnpythonthehardway.org/](https://learnpythonthehardway.org/)
+
+Or for example in javascript:
+
+	var data;
+	var url = 'https://api.datapunt.amsterdam.nl/bag/pand/03630013000707/';
+	var xhr = jQuery.getJSON(url).then(function(response) {data = response;});
+	console.log(data);
+	console.log(data.geometrie.coordinates[0][0]);
 
 
 ### The Postman option
@@ -68,8 +85,11 @@ https://github.com/mapbox/mapbox-gl-leaflet/blob/master/examples/basic.html
 There is also a Maptime Leaflet tutorial! Have a look at
 [https://github.com/maptime-ams/Leaflet-D3-workshop](https://github.com/maptime-ams/Leaflet-D3-workshop)
 
+Many geometries in Amsterdam Datapunt APIs are in RD coordinates, to help LeafletJS understand them:
+[https://github.com/DatapuntAmsterdam/proj4leaflet](https://github.com/DatapuntAmsterdam/proj4leaflet)
 
-
+Some examples of using Leaflet, googlemaps and openlayers with Amsterdam Datapunt mapserver WMS and TMS services.
+[https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
 
 
 ## About Maptime AMS
