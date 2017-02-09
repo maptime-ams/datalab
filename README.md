@@ -11,6 +11,13 @@
 (Atlas not open yet..)
 
 
+### Web development
+
+Leaflet, Openlayers, Google working examples from datalab:
+
+[https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
+
+
 ### QGIS
 
 QGIS [general](http://www.qgis.org/nl/docs/index.html) officail Dutch QGIS manual
@@ -26,13 +33,6 @@ Files to read into Qgis for fast WFS services:
 https://www.dropbox.com/sh/hu264m0mf77q3b7/AAAm4tIHlKGKl63tH9atmXRra?dl=1
 
 
-
-
-### Web development
-
-Leaflet, Openlayers, Google working examples from datalab:
-
-[https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
 
 ## What to do with the API's
 
