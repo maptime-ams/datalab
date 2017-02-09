@@ -1,5 +1,19 @@
 # Maptime # 11 Datalab!
 
+Links for tonight:
+[data.amsterdam.nl](data.amsterdam.nl)
+
+
+QGIS [general](http://www.qgis.org/nl/docs/index.html) officail Dutch QGIS manual
+
+Dutch tutorial fror WMS/WFS in Qgis:
+[pdf](/qgis_-_webservices.pdf)
+
+Leaflet, Openlayers, Google working examples from datalab:
+[https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
+
+
+
 Maptime is BYOB,  you can bring your own dinner, snacks, drinks and beers. Some drinks and snacks are provided by Datalab tonight!
 
 
