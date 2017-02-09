@@ -1,21 +1,44 @@
 # Maptime # 11 Datalab!
 
-Links for tonight:
 
+### Datalab links
+
+317 datasets. Static data to download.
 [data.amsterdam.nl](data.amsterdam.nl)
 
+20 API's . Dynamic data. Atlas build on top of it. 
 [api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)
+(Atlas not open yet..)
+
+
+### QGIS
 
 QGIS [general](http://www.qgis.org/nl/docs/index.html) officail Dutch QGIS manual
 
-Dutch tutorial fror WMS/WFS in Qgis:
+Dutch tutorial for WMS/WFS in Qgis:
 [pdf](/qgis_-_webservices.pdf)
+
+### Web development
 
 Leaflet, Openlayers, Google working examples from datalab:
 
 [https://github.com/DatapuntAmsterdam/datapunt_base_layer](https://github.com/DatapuntAmsterdam/datapunt_base_layer)
 
+## What to do with the API's
 
+For tonight, use the [api.datapunt.nl](https://api.datapunt.amsterdam.nl/api/)! Have a look at the acces points and documentation. 
+
+### The really nerdy option
+Urls are data as JSON. Use phyton, javascript or any other programming language or interface to request the data.
+For example in javascript:
+
+	var data = requests.get(https://api.datapunt.amsterdam.nl/bag/pand/03630013000707/)
+	print(data)
+	data.geometrie.coordinates[0][0]
+
+## Postman
+Developing APIs is hard. Postman makes it easy. Have a look at:
+[https://www.getpostman.com/](https://www.getpostman.com/)
 
 Maptime is BYOB,  you can bring your own dinner, snacks, drinks and beers. Some drinks and snacks are provided by Datalab tonight!
 
